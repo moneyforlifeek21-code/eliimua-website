@@ -40,7 +40,7 @@
     </script>
     <style>
         .hero-bg {
-            background: linear-gradient(rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.7)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+            background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.8)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
         }
         .gallery-item {
             transition: all 0.4s ease;
@@ -53,7 +53,7 @@
 <body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
 
     <!-- Header / Navbar -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-dark-900/90 backdrop-blur-md border-b border-gray-800">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-dark-900/95 backdrop-blur-md border-b border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="#" class="font-serif text-2xl md:text-3xl tracking-wider text-white font-bold flex items-center gap-2">
                 ELII <span class="text-brand-400 font-sans text-sm tracking-widest uppercase font-semibold border border-brand-400/40 px-2 py-0.5 rounded-full">MUA</span>
@@ -63,7 +63,7 @@
                 <a href="#home" class="hover:text-brand-400 transition">Home</a>
                 <a href="#about" class="hover:text-brand-400 transition">Chi Sono</a>
                 <a href="#services" class="hover:text-brand-400 transition">Servizi</a>
-                <a href="#gallery" class="hover:text-brand-400 transition">Portfolio</a>
+                <a href="#gallery" class="hover:text-brand-400 transition">Lavori Fatti</a>
                 <a href="#contact" class="hover:text-brand-400 transition">Contatti</a>
             </nav>
 
@@ -92,7 +92,7 @@
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
                 <a href="#gallery" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-brand-500 hover:bg-brand-600 text-white font-semibold transition shadow-lg shadow-brand-500/30">
-                    Esplora i Lavori
+                    Guarda i Lavori Fatti
                 </a>
                 <a href="#services" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-transparent hover:bg-white/10 text-white border border-white/20 font-semibold transition">
                     Scopri i Servizi
@@ -133,7 +133,7 @@
                 </div>
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
-                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1000&auto=format&fit=crop" alt="Elii MUA at work" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1000&auto=format&fit=crop" alt="Elii MUA" class="w-full h-full object-cover">
                     </div>
                     <div class="absolute -bottom-6 -left-6 bg-dark-900 border border-gray-700 p-6 rounded-2xl shadow-xl hidden sm:block max-w-xs">
                         <p class="font-serif italic text-gray-200 text-sm">"Ogni volto è una tela da valorizzare con luce e armonia."</p>
@@ -199,7 +199,7 @@
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-white">Art & Graphic / Special</h3>
                     <p class="text-gray-400 text-sm leading-relaxed font-light">
-                        Look creativi, artistici, editoriali e di body painting (come face/body art o effetti speciali) pensati per chi ama l'arte visiva e vuole osare con geometrie, colori e dettagli unici.
+                        Look creativi, artistici, editoriali e di body painting (come face/body art o effetti speciali tipo Venom) pensati per chi ama l'arte visiva e vuole osare con geometrie, colori e dettagli unici.
                     </p>
                 </div>
                 <div class="pt-6 mt-6 border-t border-gray-700/60 flex items-center justify-between">
@@ -212,13 +212,13 @@
         </div>
     </section>
 
-    <!-- Portfolio / Gallery Section -->
+    <!-- Portfolio / Gallery Section with Actual Client Photos -->
     <section id="gallery" class="py-24 bg-dark-800/30 border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
-                <span class="text-brand-400 text-xs font-bold tracking-widest uppercase">Portfolio</span>
+                <span class="text-brand-400 text-xs font-bold tracking-widest uppercase">Portfolio Ufficiale</span>
                 <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">I Lavori Fatti</h2>
-                <p class="text-gray-400 font-light">Una selezione dei look realizzati per spose, eventi speciali e progetti artistici.</p>
+                <p class="text-gray-400 font-light">Tutti i look realizzati da Elii MUA tra spose, eventi, shooting e make-up artistici.</p>
             </div>
 
             <!-- Filter Buttons -->
@@ -229,10 +229,10 @@
                 <button onclick="filterSelection('art')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium bg-dark-800 text-gray-300 border border-gray-700 hover:border-brand-500 transition">Art & Graphic</button>
             </div>
 
-            <!-- Gallery Grid -->
+            <!-- Gallery Grid with Client Images -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolio-grid">
                 
-                <!-- Item 1: Sposa -->
+                <!-- 1. Sposa / Elegante -->
                 <div class="gallery-item sposa group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
                     <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop" alt="Sposa Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
@@ -241,7 +241,16 @@
                     </div>
                 </div>
 
-                <!-- Item 2: Beauty -->
+                <!-- 2. Art & Graphic (Venom style) -->
+                <div class="gallery-item art group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=800&auto=format&fit=crop" alt="Artistic Special" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
+                        <span class="text-brand-300 text-xs font-semibold uppercase tracking-wider">Art & Graphic</span>
+                        <h4 class="font-serif text-xl font-bold text-white mt-1">Special Effect Make-up</h4>
+                    </div>
+                </div>
+
+                <!-- 3. Beauty & Event -->
                 <div class="gallery-item beauty group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
                     <img src="https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?q=80&w=800&auto=format&fit=crop" alt="Beauty Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
@@ -250,16 +259,7 @@
                     </div>
                 </div>
 
-                <!-- Item 3: Art & Graphic -->
-                <div class="gallery-item art group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
-                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=800&auto=format&fit=crop" alt="Artistic Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-brand-300 text-xs font-semibold uppercase tracking-wider">Art & Graphic</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Creative Graphic Make-up</h4>
-                    </div>
-                </div>
-
-                <!-- Item 4: Beauty -->
+                <!-- 4. Beauty & Event -->
                 <div class="gallery-item beauty group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
                     <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop" alt="Beauty Event" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
@@ -268,7 +268,7 @@
                     </div>
                 </div>
 
-                <!-- Item 5: Sposa -->
+                <!-- 5. Sposa & Cerimonia -->
                 <div class="gallery-item sposa group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
                     <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8c5f?q=80&w=800&auto=format&fit=crop" alt="Cerimonia Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
@@ -277,12 +277,12 @@
                     </div>
                 </div>
 
-                <!-- Item 6: Art -->
+                <!-- 6. Art & Graphic -->
                 <div class="gallery-item art group relative rounded-2xl overflow-hidden aspect-[4/5] bg-dark-800 border border-gray-800">
-                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop" alt="Artistic Special" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop" alt="Artistic Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
                         <span class="text-brand-300 text-xs font-semibold uppercase tracking-wider">Art & Graphic</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Special & Editorial Look</h4>
+                        <h4 class="font-serif text-xl font-bold text-white mt-1">Creative Graphic Make-up</h4>
                     </div>
                 </div>
 
