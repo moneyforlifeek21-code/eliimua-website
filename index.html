@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elii MUA | Professional Make-Up Artist</title>
+    <title>Eli MUA | Professional Make-up Artist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         gold: {
-                            50: '#fbf9f5',
-                            100: '#f5efe1',
+                            50: '#fbf8f5',
+                            100: '#f5efef',
                             200: '#ebdcc3',
                             300: '#dfc59e',
                             400: '#d1ab75',
-                            500: '#c29555',
+                            500: '#bc9555',
                             600: '#b08044',
                             700: '#926537',
                             800: '#775230',
@@ -26,9 +26,9 @@
                         },
                         lux: {
                             bg: '#ffffff',
-                            card: '#faf8f5',
-                            border: '#e6dec9',
-                            text: '#2c2c2c',
+                            card: '#fafbf7',
+                            border: '#e0dec9',
+                            text: '#2c2c3c',
                             muted: '#666666'
                         }
                     },
@@ -42,7 +42,9 @@
     </script>
     <style>
         .hero-bg {
-            background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.95)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+            background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.95)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1920&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
         }
         .gallery-item {
             transition: all 0.4s ease;
@@ -55,10 +57,10 @@
 <body class="bg-lux-bg text-lux-text font-sans antialiased selection:bg-gold-500 selection:text-white">
 
     <!-- Header / Navbar -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gold-200">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/85 backdrop-blur-md border-b border-gold-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="#" class="font-serif text-2xl md:text-3xl tracking-wider text-gray-900 font-bold flex items-center gap-2">
-                ELII <span class="text-gold-600 font-sans text-sm tracking-widest uppercase font-semibold border border-gold-400 px-2 py-0.5 rounded-full">MUA</span>
+                ELII <span class="text-gold-600 font-sans text-sm tracking-widest uppercase font-semibold border border-gold-300 px-2 py-0.5 rounded-full">MUA</span>
             </a>
             
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide text-gray-700">
@@ -70,10 +72,10 @@
             </nav>
 
             <div class="flex items-center space-x-4">
-                <a href="https://instagram.com/eliimuaa" target="_blank" class="w-10 h-10 rounded-full bg-gold-50 border border-gold-300 flex items-center justify-center text-gold-700 hover:text-white hover:bg-gold-600 transition shadow-sm">
+                <a href="https://instagram.com/eliimuaa" target="_blank" class="w-10 h-10 rounded-full bg-gold-50 border border-gold-200 flex items-center justify-center text-gold-700 hover:bg-gold-600 hover:text-white transition">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://wa.me/" target="_blank" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-gold-600 hover:bg-gold-700 text-white font-medium text-sm transition shadow-md shadow-gold-600/20">
+                <a href="https://wa.me/" target="_blank" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-gold-600 text-white font-medium text-sm hover:bg-gold-700 transition shadow-sm">
                     <i class="fab fa-whatsapp mr-2 text-lg"></i> Prenota Ora
                 </a>
             </div>
@@ -83,20 +85,20 @@
     <!-- Hero Section -->
     <section id="home" class="hero-bg min-h-screen flex items-center justify-center text-center px-4 pt-20">
         <div class="max-w-3xl mx-auto space-y-6">
-            <span class="inline-block px-4 py-1.5 rounded-full bg-gold-100 border border-gold-300 text-gold-800 text-xs sm:text-sm font-semibold tracking-widest uppercase mb-2">
-                Professional Make-Up Artist
+            <span class="inline-block px-4 py-1.5 rounded-full bg-gold-100 border border-gold-300 text-gold-800 text-xs font-semibold tracking-widest uppercase">
+                Professional Make-up Artist
             </span>
             <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-tight">
                 Esalta la tua <span class="italic font-normal text-gold-600">bellezza</span> unica
             </h1>
             <p class="text-gray-600 text-base sm:text-lg max-w-xl mx-auto font-light">
-                Trucco sposa, eventi di classe, make-up correttivo e look artistici creati su misura per ogni emozione e occasione speciale.
+                Trucco sposa, eventi di classe, make-up correttivo e look artistici creati su misura per ogni emozione.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                <a href="#gallery" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gold-600 hover:bg-gold-700 text-white font-semibold transition shadow-lg shadow-gold-600/20">
+                <a href="#gallery" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gold-600 hover:bg-gold-700 text-white font-medium text-sm tracking-wider uppercase transition shadow-md">
                     Guarda i Lavori Fatti
                 </a>
-                <a href="#services" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-transparent hover:bg-gold-50 text-gold-800 border border-gold-400 font-semibold transition">
+                <a href="#services" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-transparent hover:bg-gold-50 text-gray-900 border border-gold-300 font-medium text-sm tracking-wider uppercase transition">
                     Scopri i Servizi
                 </a>
             </div>
@@ -113,14 +115,14 @@
                         Passione, precisione e dedizione per l'arte del make-up
                     </h2>
                     <p class="text-gray-600 font-light leading-relaxed">
-                        La passione per il make-up nasce dal desiderio profondo di esaltare l'unicità di ogni volto. Nel corso del mio percorso come Makeup Artist ho esplorato ogni sfumatura di quest'arte: dalla cura meticolosa e raffinata per il giorno del matrimonio fino ai look più creativi, artistici e grafici.
+                        La passione per il make-up nasce dal desiderio profondo di esaltare l'unicità di ogni volto. Nel corso degli anni ho affinato tecniche avanzate per garantire risultati impeccabili, durevoli e capaci di riflettere la personalità di chi li indossa.
                     </p>
                     <p class="text-gray-600 font-light leading-relaxed">
-                        Credo che il trucco non sia una maschera, ma uno strumento per raccontare chi sei e farti sentire sicura, radiosa e indimenticabile nei momenti più importanti.
+                        Credo che il trucco non sia una maschera, ma uno strumento per raccontare chi sei e farti sentire sicura in ogni momento speciale.
                     </p>
-                    <div class="grid grid-cols-3 gap-6 pt-4 border-t border-gold-200">
+                    <div class="grid grid-cols-3 gap-4 pt-4 border-t border-gold-200">
                         <div>
-                            <span class="block font-serif text-3xl font-bold text-gold-600">100%</span>
+                            <span class="block font-serif text-3xl font-bold text-gold-600">+100%</span>
                             <span class="text-xs text-gray-500 tracking-wider uppercase font-medium">Dedizione</span>
                         </div>
                         <div>
@@ -133,13 +135,14 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-gold-200 bg-white p-2">
-                        <!-- Foto della creatrice -->
-                        <img src="Screenshot_20261026_135309_com.mi.globalbrowser.jpg" alt="Elii MUA" class="w-full h-full object-cover rounded-xl" onerror="this.src='https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1000&auto=format&fit=crop'">
+                        <!-- Foto profilo aggiornata -->
+                        <img src="eli.jpg" alt="Eli MUA" class="w-full h-full object-cover rounded-xl">
                     </div>
-                    <div class="absolute -bottom-6 -right-6 bg-white border border-gold-300 p-4 rounded-2xl shadow-lg hidden sm:block">
-                        <span class="block text-gold-700 font-serif font-bold text-lg">Elii MUA</span>
+                    <div class="absolute bottom-4 right-4 bg-white border border-gold-300 p-4 rounded-2xl shadow-lg">
+                        <span class="block text-gold-700 font-serif font-bold text-lg">Eli MUA</span>
                         <span class="text-xs text-gray-500 uppercase tracking-wider">Professional Artist</span>
                     </div>
                 </div>
@@ -152,62 +155,62 @@
         <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <span class="text-gold-700 text-xs font-bold tracking-widest uppercase">Cosa Offro</span>
             <h2 class="font-serif text-3xl sm:text-4xl font-bold text-gray-900">Servizi Professionali</h2>
-            <p class="text-gray-600 font-light">Soluzioni di make-up studiate per ogni specifica esigenza, garantendo qualità, durata e massima cura dei dettagli.</p>
+            <p class="text-gray-600 font-light">Soluzioni di make-up studiate per ogni specifica esigenza, garantendo eleganza e durata per i tuoi momenti importanti.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Service 1 -->
-            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between group shadow-sm">
+            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between">
                 <div class="space-y-4">
-                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-2xl group-hover:bg-gold-600 group-hover:text-white transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-xl font-bold">
                         <i class="fas fa-ring"></i>
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-gray-900">Sposa & Cerimonia</h3>
                     <p class="text-gray-600 text-sm leading-relaxed font-light">
-                        Un servizio esclusivo studiato su misura per il giorno del sì, che comprende la prova trucco preliminare e il make-up nel giorno dell'evento per un effetto duraturo e luminoso.
+                        Un servizio esclusivo studiato su misura per il giorno del sì, che comprende la prova trucco preliminare e il trucco a lunga tenuta per la sposa e le invitate.
                     </p>
                 </div>
                 <div class="pt-6 mt-6 border-t border-gold-200 flex items-center justify-between">
                     <span class="text-xs text-gold-800 uppercase font-semibold tracking-wider">Su Prenotazione</span>
-                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gold-700 hover:text-gold-900 flex items-center gap-1">
+                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gray-700 hover:text-gold-700 transition">
                         Richiedi Info <i class="fas fa-arrow-right text-xs"></i>
                     </a>
                 </div>
             </div>
 
             <!-- Service 2 -->
-            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between group shadow-sm">
+            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between">
                 <div class="space-y-4">
-                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-2xl group-hover:bg-gold-600 group-hover:text-white transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-xl font-bold">
                         <i class="fas fa-magic"></i>
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-gray-900">Beauty & Event</h3>
                     <p class="text-gray-600 text-sm leading-relaxed font-light">
-                        Trucco correttivo, elegante o da giorno/sera per compleanni, lauree, servizi fotografici, shooting, feste ed occasioni speciali.
+                        Trucco correttivo, elegante o da giorno/sera per compleanni, lauree, servizi fotografici, shooting e occasioni speciali in cui vuoi brillare.
                     </p>
                 </div>
                 <div class="pt-6 mt-6 border-t border-gold-200 flex items-center justify-between">
-                    <span class="text-xs text-gold-800 uppercase font-semibold tracking-wider">In sede / Domicilio</span>
-                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gold-700 hover:text-gold-900 flex items-center gap-1">
+                    <span class="text-xs text-gold-800 uppercase font-semibold tracking-wider">In Sede / Domicilio</span>
+                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gray-700 hover:text-gold-700 transition">
                         Richiedi Info <i class="fas fa-arrow-right text-xs"></i>
                     </a>
                 </div>
             </div>
 
             <!-- Service 3 -->
-            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between group shadow-sm">
+            <div class="bg-gold-50/40 border border-gold-200 rounded-2xl p-8 hover:border-gold-400 transition duration-300 flex flex-col justify-between">
                 <div class="space-y-4">
-                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-2xl group-hover:bg-gold-600 group-hover:text-white transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 text-xl font-bold">
                         <i class="fas fa-palette"></i>
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-gray-900">Art & Graphic</h3>
                     <p class="text-gray-600 text-sm leading-relaxed font-light">
-                        Look creativi, artistici ed editoriali pensati per chi ama l'arte visiva e vuole osare con geometrie, colori e dettagli unici.
+                        Look creativi, artistici ed editoriali pensati per chi ama l'arte visiva e vuole osare con geometria, colori e stili unici e d'impatto.
                     </p>
                 </div>
                 <div class="pt-6 mt-6 border-t border-gold-200 flex items-center justify-between">
                     <span class="text-xs text-gold-800 uppercase font-semibold tracking-wider">Progetti Artistici</span>
-                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gold-700 hover:text-gold-900 flex items-center gap-1">
+                    <a href="https://wa.me/" target="_blank" class="text-sm font-medium text-gray-700 hover:text-gold-700 transition">
                         Richiedi Info <i class="fas fa-arrow-right text-xs"></i>
                     </a>
                 </div>
@@ -215,93 +218,18 @@
         </div>
     </section>
 
-    <!-- Portfolio / Gallery Section con le foto caricate -->
+    <!-- Portfolio / Gallery Section con i nomi corretti -->
     <section id="gallery" class="py-24 bg-gold-50/30 border-t border-gold-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
                 <span class="text-gold-700 text-xs font-bold tracking-widest uppercase">Portfolio Ufficiale</span>
                 <h2 class="font-serif text-3xl sm:text-4xl font-bold text-gray-900">I Lavori Fatti</h2>
-                <p class="text-gray-600 font-light">Una selezione dei look reali realizzati per spose, eventi e shooting fotografici.</p>
+                <p class="text-gray-600 font-light">Una selezione dei look reali realizzati per spose, eventi e shooting.</p>
             </div>
 
-            <!-- Filter Buttons -->
-            <div class="flex flex-wrap justify-center gap-2 mb-12" id="filter-buttons">
-                <button onclick="filterSelection('all')" class="filter-btn active px-6 py-2 rounded-full text-sm font-medium bg-gold-600 text-white transition shadow-sm">Tutti i Lavori</button>
-                <button onclick="filterSelection('sposa')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium bg-white text-gray-700 border border-gold-300 hover:border-gold-500 transition">Sposa & Cerimonia</button>
-                <button onclick="filterSelection('beauty')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium bg-white text-gray-700 border border-gold-300 hover:border-gold-500 transition">Beauty & Event</button>
-                <button onclick="filterSelection('art')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium bg-white text-gray-700 border border-gold-300 hover:border-gold-500 transition">Art & Graphic</button>
-            </div>
-
-            <!-- Gallery Grid con i nomi esatti dei file caricati -->
+            <!-- Gallery Grid con i nuovi file corretti -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolio-grid">
                 
-                <!-- 1. Foto capelli rossi -->
+                <!-- 1. Foto lavoro1.jpg -->
                 <div class="gallery-item beauty group relative rounded-2xl overflow-hidden aspect-[4/5] bg-white border border-gold-200 shadow-sm">
-                    <img src="Screenshot_20261026_135338_com.mi.globalbrowser.jpg" alt="Beauty Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-gold-300 text-xs font-semibold uppercase tracking-wider">Beauty & Event</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Glamour Look</h4>
-                    </div>
-                </div>
-
-                <!-- 2. Foto rossetto rosso e guanti -->
-                <div class="gallery-item sposa group relative rounded-2xl overflow-hidden aspect-[4/5] bg-white border border-gold-200 shadow-sm">
-                    <img src="Screenshot_20261026_135609_com.mi.globalbrowser.jpg" alt="Sposa & Cerimonia" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-gold-300 text-xs font-semibold uppercase tracking-wider">Sposa & Cerimonia</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Eleganza Sposa</h4>
-                    </div>
-                </div>
-
-                <!-- 3. Foto trucco occhi bianco -->
-                <div class="gallery-item art group relative rounded-2xl overflow-hidden aspect-[4/5] bg-white border border-gold-200 shadow-sm">
-                    <img src="Screenshot_20261026_135457_com.mi.globalbrowser.jpg" alt="Art & Graphic" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-gold-300 text-xs font-semibold uppercase tracking-wider">Art & Graphic</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Creative Graphic Make-up</h4>
-                    </div>
-                </div>
-
-                <!-- 4. Foto capelli scuri -->
-                <div class="gallery-item beauty group relative rounded-2xl overflow-hidden aspect-[4/5] bg-white border border-gold-200 shadow-sm">
-                    <img src="Screenshot_20261026_135357_com.mi.globalbrowser.jpg" alt="Beauty Event" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-gold-300 text-xs font-semibold uppercase tracking-wider">Beauty & Event</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Sophisticated Look</h4>
-                    </div>
-                </div>
-
-                <!-- 5. Foto trucco grafico -->
-                <div class="gallery-item art group relative rounded-2xl overflow-hidden aspect-[4/5] bg-white border border-gold-200 shadow-sm">
-                    <img src="Screenshot_20261026_135429_com.mi.globalbrowser.jpg" alt="Art Graphic" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                        <span class="text-gold-300 text-xs font-semibold uppercase tracking-wider">Art & Graphic</span>
-                        <h4 class="font-serif text-xl font-bold text-white mt-1">Editorial & Graphic Art</h4>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-gradient-to-br from-gold-50 to-white border border-gold-300 rounded-3xl p-8 sm:p-12 lg:p-16 text-center max-w-4xl mx-auto space-y-8 relative overflow-hidden shadow-lg">
-            <span class="text-gold-700 text-xs font-bold tracking-widest uppercase">Contattami</span>
-            <h2 class="font-serif text-3xl sm:text-5xl font-bold text-gray-900">Pronta a valorizzare il tuo look?</h2>
-            <p class="text-gray-600 max-w-xl mx-auto font-light">
-                Contattami direttamente su WhatsApp o Instagram per informazioni, disponibilità date e prenotazioni per il tuo prossimo evento.
-            </p>
-
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                <a href="https://wa.me/" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold transition shadow-lg shadow-emerald-600/20">
-                    <i class="fab fa-whatsapp mr-2 text-xl"></i> Scrivi su WhatsApp
-                </a>
-                <a href="https://instagram.com/eliimuaa" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-full bg-white hover:bg-gold-50 text-gray-900 border border-gold-400 font-semibold transition shadow-sm">
-                    <i class="fab fa-instagram mr-2 text-xl text-gold-600"></i> Visita @eliimuaa
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+                    <img src="lavoro1.jpg" alt="Beauty Look" class="w-full h-full object-cover group-hover
